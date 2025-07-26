@@ -260,7 +260,7 @@ export default function ProfilePage() {
           Personal Information
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-lg">
-          <p><span className="font-semibold text-gray-300">Email:</span> {currentUser.userEmail}</p>
+          <p className="break-words"><span className="font-semibold text-gray-300">Email:</span> {currentUser.userEmail}</p>
           <p><span className="font-semibold text-gray-300">Username:</span> {currentUser.userName}</p>
         </div>
         <div className="mt-8 flex flex-col sm:flex-row justify-end space-y-3 sm:space-y-0 sm:space-x-4">

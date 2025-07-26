@@ -136,7 +136,7 @@ export default function LoginPage() {
             href="/register"
             className="inline-block align-baseline font-bold text-base text-gray-400 hover:text-gray-200 transition-colors duration-200"
           >
-            Don't have an account? Register!
+            Dont have an account? Register!
           </Link>
         </div>
       </form>

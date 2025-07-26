@@ -66,10 +66,12 @@ export default function HeroSwiper() {
               <div className="absolute inset-0 bg-black opacity-50"></div>
 
               <div className="relative z-20 max-w-4xl mx-auto text-white">
-                <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4 drop-shadow-lg">
+                {/* تعديل حجم الخط للعنوان الرئيسي */}
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4 drop-shadow-lg">
                   {item.title}
                 </h1>
-                <p className="text-lg md:text-xl mb-8 opacity-90 max-w-2xl mx-auto">
+                {/* تعديل حجم الخط للوصف */}
+                <p className="text-base sm:text-lg md:text-xl mb-8 opacity-90 max-w-2xl mx-auto">
                   {item.description}
                 </p>
                 <Link

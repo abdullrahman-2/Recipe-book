@@ -1,5 +1,9 @@
 'use client';
 
+export const dynamic = 'force-dynamic';
+
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
+
 import { useState, useEffect, useCallback } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import toast from 'react-hot-toast';
@@ -9,7 +13,6 @@ import { selectIsAuthenticated } from '../../redux/features/auth/authSlice';
 
 import { authFetch } from '../../utils/apiClient';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
 
 export default function CreateOrEditRecipePage() {
   const router = useRouter();

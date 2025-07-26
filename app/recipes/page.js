@@ -104,7 +104,7 @@ export default function RecipesPage() {
 
       {filteredRecipes.length === 0 && searchTerm !== '' ? (
         <p className="text-gray-400 text-xl text-center mt-10">
-          No recipes found matching "{searchTerm}".
+          No recipes found matching {searchTerm}.
         </p>
       ) : filteredRecipes.length === 0 && searchTerm === '' ? (
         <p className="text-gray-400 text-xl text-center mt-10">
