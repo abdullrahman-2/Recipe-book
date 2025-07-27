@@ -54,6 +54,11 @@ export default async function FeaturedRecipes() {
         <h2 className="text-4xl font-extrabold text-center text-white mb-10">
           Featured Recipes
         </h2>
+        {/* <<<<< أضف هذا السطر مؤقتاً للتشخيص */}
+        <div className="text-center text-gray-300 text-sm mb-4">
+          Data Loaded: {JSON.stringify(limitedFeaturedRecipes, null, 2)}
+        </div>
+        {/* <<<<< نهاية الإضافة المؤقتة */}
         {limitedFeaturedRecipes.length === 0 ? (
           <p className="text-center text-gray-400 text-xl">
             No featured recipes available yet.
