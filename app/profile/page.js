@@ -251,11 +251,10 @@ export default function ProfilePage() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-5xl font-extrabold text-center text-white mb-12 drop-shadow-lg">
+      <h1 className="break-words text-5xl font-extrabold text-center text-white mb-12 drop-shadow-lg">
         {currentUser.userName}'s Profile
       </h1>
-
-      <div className="max-w-4xl mx-auto bg-gray-800 p-8 rounded-lg shadow-2xl mb-10">
+       <div className="max-w-4xl mx-auto bg-gray-800 p-8 rounded-lg shadow-2xl mb-10">
         <h2 className="text-3xl font-bold text-gray-100 mb-6 border-b border-gray-700 pb-4">
           Personal Information
         </h2>
