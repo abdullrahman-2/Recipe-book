@@ -32,9 +32,7 @@ This project is connected to:
 👉 RecipeBook API (ASP.NET Core)
 
 Make sure the backend is running before using the app.
-
----
+ ---
 try it now
-فقغ
-ع
+ 
  https://recipe-book-v.netlify.app/
